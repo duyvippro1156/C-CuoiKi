@@ -22,7 +22,7 @@ namespace TestUngDung.Areas.Administrator.Controllers
         //
         // GET: /Administrator/Product/
         [HandleError]
-        public ActionResult Index(string error, string name)
+        public ActionResult Index(string error, string name, int page = 1, int pagesize = 15)
         {
             if (Session["accname"] == null)
             {
@@ -37,7 +37,7 @@ namespace TestUngDung.Areas.Administrator.Controllers
                 {
                     model = aDB.TimSanPham(name);
                 }
-                return View(model);
+                return View(model.ToPagedList(page, pagesize));
             }
         }
 

@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAO\AdminDAO.cs" />
+    <Compile Include="DAO\UserDAO.cs" />
     <Compile Include="Model\DanhMuc.cs" />
     <Compile Include="Model\LoaiSP.cs" />
     <Compile Include="Model\MaiXuanDuyContext.cs" />

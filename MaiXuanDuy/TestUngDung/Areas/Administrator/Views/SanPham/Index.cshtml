@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<ModelEF.Model.SanPham>
 @using PagedList.Mvc
+@using PagedList
 @{
     ViewBag.Title = "Sản phẩm";
     Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
@@ -66,10 +67,12 @@
                         }
                     </tbody>
                 </table>
+
             </div>
             <!-- /.table-responsive -->
         </div>
         <!-- /.panel-body -->
     </div>
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page, @seachString = @ViewBag.SearchString }))
     <!-- /.panel -->
 </div>

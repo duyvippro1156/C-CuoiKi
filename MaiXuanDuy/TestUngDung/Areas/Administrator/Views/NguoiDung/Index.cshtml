@@ -55,11 +55,11 @@
                         }
                     </tbody>
                 </table>
-                @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page, @seachString = @ViewBag.SearchString }))
             </div>
             <!-- /.table-responsive -->
         </div>
         <!-- /.panel-body -->
     </div>
-    <!-- /.panel -->
+        <!-- /.panel -->
+        @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page, @seachString = @ViewBag.SearchString }))
 </div>

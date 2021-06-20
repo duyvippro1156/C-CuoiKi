@@ -10,3 +10,15 @@ C:\Users\DUY\Desktop\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\obj\Debug\ModelEF.
 C:\Users\DUY\Desktop\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\obj\Debug\ModelEF.dll
 C:\Users\DUY\Desktop\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\obj\Debug\ModelEF.pdb
 C:\Users\DUY\Desktop\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\obj\Debug\ModelEF.csprojAssemblyReference.cache
+E:\Đại học\năm ba\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\bin\Debug\ModelEF.dll.config
+E:\Đại học\năm ba\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\bin\Debug\ModelEF.dll
+E:\Đại học\năm ba\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\bin\Debug\ModelEF.pdb
+E:\Đại học\năm ba\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\bin\Debug\EntityFramework.dll
+E:\Đại học\năm ba\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\bin\Debug\EntityFramework.SqlServer.dll
+E:\Đại học\năm ba\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\bin\Debug\EntityFramework.xml
+E:\Đại học\năm ba\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\bin\Debug\EntityFramework.SqlServer.xml
+E:\Đại học\năm ba\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\obj\Debug\ModelEF.csprojAssemblyReference.cache
+E:\Đại học\năm ba\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\obj\Debug\ModelEF.csproj.CoreCompileInputs.cache
+E:\Đại học\năm ba\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\obj\Debug\ModelEF.csproj.CopyComplete
+E:\Đại học\năm ba\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\obj\Debug\ModelEF.dll
+E:\Đại học\năm ba\kì 220\C#\Cuối kì\MaiXuanDuy\ModelEF\obj\Debug\ModelEF.pdb
