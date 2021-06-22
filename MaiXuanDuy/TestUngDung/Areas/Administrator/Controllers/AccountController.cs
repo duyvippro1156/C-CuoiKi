@@ -26,15 +26,23 @@ namespace TestUngDung.Areas.Administrator.Controllers
                 var model = dbLog.UserAccounts.SingleOrDefault(a => a.TaiKhoan.Equals(adLogin.TaiKhoan));
                 if (model != null)
                 {
-                    if (model.MatKhau.Equals(dao.Encrypt(adLogin.MatKhau)))
+                    if (!model.Status.Equals("Blocked"))
                     {
-                        Session["accname"]= model.TaiKhoan;                        
-                        return RedirectToAction("Index", "Home");
+                        if (model.MatKhau.Equals(dao.Encrypt(adLogin.MatKhau)))
+                        {
+                            Session["accname"] = model.TaiKhoan;
+                            return RedirectToAction("Index", "Home");
+                        }
+                        else
+                        {
+                            Session["accname"] = null;
+                            ViewBag.LoginError = "Sai tài khoản hoặc mật khẩu.";
+                        }
                     }
                     else
                     {
                         Session["accname"] = null;
-                        ViewBag.LoginError = "Sai tài khoản hoặc mật khẩu.";
+                        ViewBag.LoginError = "Tài khoản Blocked";
                     }
                 }
                 else
